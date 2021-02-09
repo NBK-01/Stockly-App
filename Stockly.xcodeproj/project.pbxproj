@@ -3,23 +3,46 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		051702C925B8A67B0082DB67 /* StocklyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 051702C825B8A67B0082DB67 /* StocklyApp.swift */; };
 		051702CB25B8A67B0082DB67 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 051702CA25B8A67B0082DB67 /* ContentView.swift */; };
-		051702CD25B8A67C0082DB67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 051702CC25B8A67C0082DB67 /* Assets.xcassets */; };
 		051702D025B8A67C0082DB67 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 051702CF25B8A67C0082DB67 /* Preview Assets.xcassets */; };
+		051702DA25B8A69E0082DB67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 051702D925B8A69E0082DB67 /* Assets.xcassets */; };
+		051702DE25B9654D0082DB67 /* ConcentricOnboarding in Frameworks */ = {isa = PBXBuildFile; productRef = 051702DD25B9654D0082DB67 /* ConcentricOnboarding */; };
+		051702E325B99C220082DB67 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 051702E225B99C220082DB67 /* Login.swift */; };
+		052DA9B425BA395300FD8F07 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 052DA9B325BA395300FD8F07 /* Menu.swift */; };
+		052DA9B925BAD63F00FD8F07 /* Buttons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 052DA9B825BAD63F00FD8F07 /* Buttons.swift */; };
+		052DA9BF25BADE5A00FD8F07 /* Font1.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 052DA9BD25BADE5A00FD8F07 /* Font1.ttf */; };
+		0552121625BC1BFC002EB82F /* SliderData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0552121325BC1BFB002EB82F /* SliderData.swift */; };
+		0552121725BC1BFC002EB82F /* WaveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0552121425BC1BFC002EB82F /* WaveView.swift */; };
+		0552121825BC1BFC002EB82F /* LiquidSwipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0552121525BC1BFC002EB82F /* LiquidSwipeView.swift */; };
+		0552122525BC4D8E002EB82F /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0552122425BC4D8E002EB82F /* Launch Screen.storyboard */; };
+		05FDE2D225CED71A0024224C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 05FDE2D125CED71A0024224C /* GoogleService-Info.plist */; };
+		2A1A8A054C6BDA718F53598D /* Pods_Stockly.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3B46D21E12308B00E697430 /* Pods_Stockly.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		051702C525B8A67B0082DB67 /* Stockly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stockly.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		051702C825B8A67B0082DB67 /* StocklyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StocklyApp.swift; sourceTree = "<group>"; };
 		051702CA25B8A67B0082DB67 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		051702CC25B8A67C0082DB67 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		051702CF25B8A67C0082DB67 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		051702D125B8A67C0082DB67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		051702D925B8A69E0082DB67 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		051702E225B99C220082DB67 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		052DA9B325BA395300FD8F07 /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Menu.swift; path = ../Menu.swift; sourceTree = "<group>"; };
+		052DA9B825BAD63F00FD8F07 /* Buttons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Buttons.swift; sourceTree = "<group>"; };
+		052DA9BD25BADE5A00FD8F07 /* Font1.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Font1.ttf; sourceTree = "<group>"; };
+		0552121325BC1BFB002EB82F /* SliderData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SliderData.swift; sourceTree = "<group>"; };
+		0552121425BC1BFC002EB82F /* WaveView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WaveView.swift; sourceTree = "<group>"; };
+		0552121525BC1BFC002EB82F /* LiquidSwipeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiquidSwipeView.swift; sourceTree = "<group>"; };
+		0552122425BC4D8E002EB82F /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		05FDE2D125CED71A0024224C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		13B4ECF442C105B184E1D8DD /* Pods-Stockly.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stockly.debug.xcconfig"; path = "Target Support Files/Pods-Stockly/Pods-Stockly.debug.xcconfig"; sourceTree = "<group>"; };
+		C3B46D21E12308B00E697430 /* Pods_Stockly.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Stockly.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB412F44D46598D544B785BE /* Pods-Stockly.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stockly.release.xcconfig"; path = "Target Support Files/Pods-Stockly/Pods-Stockly.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,6 +50,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				051702DE25B9654D0082DB67 /* ConcentricOnboarding in Frameworks */,
+				2A1A8A054C6BDA718F53598D /* Pods_Stockly.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,6 +63,8 @@
 			children = (
 				051702C725B8A67B0082DB67 /* Stockly */,
 				051702C625B8A67B0082DB67 /* Products */,
+				0E9BBA6134673AFC2B57544D /* Pods */,
+				C2C2C0CEBB668387869D5948 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -52,10 +79,17 @@
 		051702C725B8A67B0082DB67 /* Stockly */ = {
 			isa = PBXGroup;
 			children = (
-				051702C825B8A67B0082DB67 /* StocklyApp.swift */,
+				0552122425BC4D8E002EB82F /* Launch Screen.storyboard */,
 				051702CA25B8A67B0082DB67 /* ContentView.swift */,
-				051702CC25B8A67C0082DB67 /* Assets.xcassets */,
+				052DA9B825BAD63F00FD8F07 /* Buttons.swift */,
+				052DA9B325BA395300FD8F07 /* Menu.swift */,
+				051702E225B99C220082DB67 /* Login.swift */,
+				051702C825B8A67B0082DB67 /* StocklyApp.swift */,
+				05FDE2D125CED71A0024224C /* GoogleService-Info.plist */,
+				0552120E25BC18F3002EB82F /* Onboard */,
+				051702D925B8A69E0082DB67 /* Assets.xcassets */,
 				051702D125B8A67C0082DB67 /* Info.plist */,
+				052DA9C125BADF4300FD8F07 /* Fonts */,
 				051702CE25B8A67C0082DB67 /* Preview Content */,
 			);
 			path = Stockly;
@@ -69,6 +103,41 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		052DA9C125BADF4300FD8F07 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				052DA9BD25BADE5A00FD8F07 /* Font1.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		0552120E25BC18F3002EB82F /* Onboard */ = {
+			isa = PBXGroup;
+			children = (
+				0552121525BC1BFC002EB82F /* LiquidSwipeView.swift */,
+				0552121325BC1BFB002EB82F /* SliderData.swift */,
+				0552121425BC1BFC002EB82F /* WaveView.swift */,
+			);
+			path = Onboard;
+			sourceTree = "<group>";
+		};
+		0E9BBA6134673AFC2B57544D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				13B4ECF442C105B184E1D8DD /* Pods-Stockly.debug.xcconfig */,
+				CB412F44D46598D544B785BE /* Pods-Stockly.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C2C2C0CEBB668387869D5948 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C3B46D21E12308B00E697430 /* Pods_Stockly.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -76,15 +145,20 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 051702D425B8A67C0082DB67 /* Build configuration list for PBXNativeTarget "Stockly" */;
 			buildPhases = (
+				A23FEC91881B6F570F5D65ED /* [CP] Check Pods Manifest.lock */,
 				051702C125B8A67B0082DB67 /* Sources */,
 				051702C225B8A67B0082DB67 /* Frameworks */,
 				051702C325B8A67B0082DB67 /* Resources */,
+				23167CB206B7133DD9ACAAE6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = Stockly;
+			packageProductDependencies = (
+				051702DD25B9654D0082DB67 /* ConcentricOnboarding */,
+			);
 			productName = Stockly;
 			productReference = 051702C525B8A67B0082DB67 /* Stockly.app */;
 			productType = "com.apple.product-type.application";
@@ -112,6 +186,9 @@
 				Base,
 			);
 			mainGroup = 051702BC25B8A67B0082DB67;
+			packageReferences = (
+				051702DC25B9654D0082DB67 /* XCRemoteSwiftPackageReference "ConcentricOnboarding" */,
+			);
 			productRefGroup = 051702C625B8A67B0082DB67 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,19 +203,70 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				051702DA25B8A69E0082DB67 /* Assets.xcassets in Resources */,
+				052DA9BF25BADE5A00FD8F07 /* Font1.ttf in Resources */,
+				05FDE2D225CED71A0024224C /* GoogleService-Info.plist in Resources */,
+				0552122525BC4D8E002EB82F /* Launch Screen.storyboard in Resources */,
 				051702D025B8A67C0082DB67 /* Preview Assets.xcassets in Resources */,
-				051702CD25B8A67C0082DB67 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		23167CB206B7133DD9ACAAE6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Stockly/Pods-Stockly-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Stockly/Pods-Stockly-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Stockly/Pods-Stockly-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A23FEC91881B6F570F5D65ED /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Stockly-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		051702C125B8A67B0082DB67 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0552121625BC1BFC002EB82F /* SliderData.swift in Sources */,
+				052DA9B925BAD63F00FD8F07 /* Buttons.swift in Sources */,
+				0552121725BC1BFC002EB82F /* WaveView.swift in Sources */,
+				0552121825BC1BFC002EB82F /* LiquidSwipeView.swift in Sources */,
+				051702E325B99C220082DB67 /* Login.swift in Sources */,
 				051702CB25B8A67B0082DB67 /* ContentView.swift in Sources */,
+				052DA9B425BA395300FD8F07 /* Menu.swift in Sources */,
 				051702C925B8A67B0082DB67 /* StocklyApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -264,6 +392,7 @@
 		};
 		051702D525B8A67C0082DB67 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13B4ECF442C105B184E1D8DD /* Pods-Stockly.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -286,6 +415,7 @@
 		};
 		051702D625B8A67C0082DB67 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB412F44D46598D544B785BE /* Pods-Stockly.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -328,6 +458,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		051702DC25B9654D0082DB67 /* XCRemoteSwiftPackageReference "ConcentricOnboarding" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/exyte/ConcentricOnboarding.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.0.5;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		051702DD25B9654D0082DB67 /* ConcentricOnboarding */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 051702DC25B9654D0082DB67 /* XCRemoteSwiftPackageReference "ConcentricOnboarding" */;
+			productName = ConcentricOnboarding;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 051702BD25B8A67B0082DB67 /* Project object */;
 }
